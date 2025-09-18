@@ -1,4 +1,5 @@
-{
+[
+  {
     "customer_id": 1000,
     "firstname": "Test",
     "lastname": "Testesen",
@@ -10,35 +11,94 @@
     "country": "NORGE",
     "customer_has_blockcode": true,
     "subscriptions": [
-        {
-            "sub_id": 1,
-            "sub_name": "testabb",
-            "sub_code": "",
-            "is_active": 0,
-            "start_date": "2023-02-08",
-            "stop_date": "2025-01-20",
-            "next_order_date": "2024-11-08",
-            "delivery_interval": 60
-        },
-        {
-            "sub_id": 123,
-            "sub_name": "SP-EC79",
-            "sub_code": "SP-EC79",
-            "is_active": 0,
-            "start_date": "2024-12-17",
-            "stop_date": "2025-01-23",
-            "next_order_date": "2024-12-17",
-            "delivery_interval": 60
-        },
-        {
-            "sub_id": 1099,
-            "sub_name": "Holdback-799",
-            "sub_code": "Holdback-799",
-            "is_active": 0,
-            "start_date": "2025-01-20",
-            "stop_date": "2025-01-20",
-            "next_order_date": "2025-01-20",
-            "delivery_interval": 58
-        }
+      {
+        "sub_id": 1,
+        "sub_name": "testabb",
+        "sub_code": "",
+        "is_active": 0,
+        "start_date": "2023-02-08",
+        "stop_date": "2025-01-20",
+        "next_order_date": "2024-11-08",
+        "delivery_interval": 60
+      },
+      {
+        "sub_id": 123,
+        "sub_name": "SP-EC79",
+        "sub_code": "SP-EC79",
+        "is_active": 0,
+        "start_date": "2024-12-17",
+        "stop_date": "2025-01-23",
+        "next_order_date": "2024-12-17",
+        "delivery_interval": 60
+      },
+      {
+        "sub_id": 1099,
+        "sub_name": "Holdback-799",
+        "sub_code": "Holdback-799",
+        "is_active": 0,
+        "start_date": "2025-01-20",
+        "stop_date": "2025-01-20",
+        "next_order_date": "2025-01-20",
+        "delivery_interval": 58
+      }
     ]
-}
+  },
+  {
+    "customer_id": 1001,
+    "firstname": "Anna",
+    "lastname": "Nordmann",
+    "email": "anna.nordmann@example.no",
+    "mobile": "41234567",
+    "address": "Solbakken 3",
+    "city": "KRISTIANSAND",
+    "zip": "4630",
+    "country": "NORGE",
+    "customer_has_blockcode": false,
+    "subscriptions": [
+      {
+        "sub_id": 200,
+        "sub_name": "PremiumPlus",
+        "sub_code": "PP-200",
+        "is_active": 1,
+        "start_date": "2024-01-01",
+        "stop_date": "2025-12-31",
+        "next_order_date": "2024-10-01",
+        "delivery_interval": 30
+      }
+    ]
+  },
+  {
+    "customer_id": 1002,
+    "firstname": "Ola",
+    "lastname": "Hansen",
+    "email": "ola.hansen@demo.no",
+    "mobile": "98765432",
+    "address": "Fjellveien 22",
+    "city": "BERGEN",
+    "zip": "5007",
+    "country": "NORGE",
+    "customer_has_blockcode": false,
+    "subscriptions": [
+      {
+        "sub_id": 305,
+        "sub_name": "Basic",
+        "sub_code": "BSC-305",
+        "is_active": 1,
+        "start_date": "2023-06-15",
+        "stop_date": "2024-06-15",
+        "next_order_date": "2024-05-15",
+        "delivery_interval": 90
+      },
+      {
+        "sub_id": 306,
+        "sub_name": "ExtraPack",
+        "sub_code": "XP-306",
+        "is_active": 1,
+        "start_date": "2024-01-10",
+        "stop_date": "2025-01-10",
+        "next_order_date": "2024-10-10",
+        "delivery_interval": 45
+      }
+    ]
+  }
+]
